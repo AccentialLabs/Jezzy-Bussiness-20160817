@@ -1,0 +1,71 @@
+.marginTopSmall {
+  margin-top: 5px;
+}
+
+.marginLeftSmall {
+  margin-left: 5px;
+}
+
+.marginLeftlarge {
+  margin-left: 20px;
+}
+
+.marginAndSizeCustomTransport {
+  margin-top: 5px;
+  width: 22%;
+}
+
+#tableProductOption{
+    text-align: center;
+}
+
+#tableProductOption th{
+    text-align: center;
+}
+
+#eventForm .form-control-feedback {
+    top: 0;
+    right: -15px;
+}
+
+.uploadFilesProductAdd {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.formModalError {
+  background-color: rgb(255, 65, 65);
+  text-align: center;
+  color: black;
+  font-size: initial;
+}
+
+.inputFileHide{
+    display: none !important;
+}
+
+.imageSize {
+    width: 100%;
+    cursor: pointer;
+}
+
+.imageAlign {
+  text-align: center;
+}
+
+.tableBackground{
+    background-color: ghostwhite;
+}

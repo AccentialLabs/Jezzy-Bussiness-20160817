@@ -1,0 +1,29 @@
+.valueWidth {
+    width: 160px;
+}
+
+.timeWidth {
+    width: 135px;
+}
+
+.return-box{
+	padding-top: 5px;
+	max-height: 70%;
+	min-width: 50%;
+	overflow: auto;
+	position: absolute;
+	padding-right: 30px;
+	padding-left: 15px;
+	background: #fff;
+	z-index: 100;
+	border-radius: 3px;
+	display: none;
+}
+
+.return-box table tr td{
+	cursor: pointer;
+}
+
+.btn{
+	margin-right: 5px;
+}

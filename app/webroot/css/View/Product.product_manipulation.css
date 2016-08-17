@@ -1,0 +1,185 @@
+
+
+.borderTagetOffer {
+    border: 1px solid #999933;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.textCenterModal{
+    text-align: center;
+    height: 50px;
+    padding-top: 12px;
+    font-size: large;
+}
+
+.marginTop30{
+    margin-top: 30px;
+}
+
+.fontTextTopTargetOffer {
+    font-size: 9px;
+}
+
+.margirTop15negative {
+    margin-top: -15px;
+}
+
+.margirTop15 {
+    margin-top: 15px;
+}
+
+.endFormLine {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.width50Porcento{
+    width: 50%;
+}
+
+.paddinLeft20 {
+    padding-left: 20px;
+}
+
+.requireFild{
+    border-left: 5px solid #2597AC;
+}
+
+.titleModelOption{
+    color: wheat;
+}
+
+.formModalError {
+    background-color: rgb(255, 65, 65);
+    text-align: center;
+    color: black;
+    font-size: initial;
+}
+
+.inputFileHide{
+    display: none !important;
+}
+
+.imageSize {
+    width: 100%;
+    cursor: pointer;
+}
+
+.waitGifSize {
+    width: 25%;
+}
+
+.heightImage {
+    height: 88px;
+}
+
+#divImagesOffer{
+    text-align: center;
+}
+
+.mousePointer{
+    cursor: pointer;
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: none;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+}
+
+#loading-image {
+    top: 10px;
+    left: 24px;
+    z-index: 100;
+    margin-top: 110px;
+}
+
+.td-cont{
+    width: 70px;
+}
+
+.td-cont-line{
+    width: 70px;
+}
+
+.categorySize {
+    width: 250px !important; 
+}
+
+.floatRight{
+    float: right;
+}
+
+.wellExtraElemnts {
+    background-color: #FDE1E1;
+    text-align: center;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.help-icon{
+	width: 100%;
+	text-align: right;
+	
+	padding-top: 10px;
+}
+
+.help-icon img{
+	width: 13%;
+	cursor: pointer;
+}
+
+.help-icon img:hover{
+	opacity: 0.6;
+}
+
+.return-box{
+	padding-top: 5px;
+	max-height: 300px;
+	min-width: 50%;
+	overflow: auto;
+	position: absolute;
+	padding-right: 30px;
+	padding-left: 15px;
+	background: #fff;
+	z-index: 100;
+	border-radius: 3px;
+	display: none;
+}
+
+.return-box table tr td{
+	cursor: pointer;
+}
+
+#productFreight{
+	display: none;
+}
+
+#notFoundMoipAccount{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+.col-md-5{
+    float: none;
+}
+
+#services-select{
+	display: none;
+margin-bottom: 5px;
+}

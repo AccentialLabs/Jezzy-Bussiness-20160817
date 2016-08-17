@@ -1,0 +1,83 @@
+.marginTop10 {
+  margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th{
+    vertical-align: middle; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+table thead tr{
+    background-color: #DEF1F4;
+    color: #2597AC;
+}
+
+table tr{
+    text-align: center;
+    color: #9B9B9B;
+}
+
+.rowCenter {
+    text-align: center;
+}
+
+.help-icon{
+	width: 6%;
+	text-align: right;
+	float: right;
+	
+	padding-top: 10px;
+}
+
+.help-icon img{
+	width: 100%;
+	cursor: pointer;
+}
+
+.help-icon img:hover{
+	opacity: 0.6;
+}
+
+.glyph-button:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.input-hidden{
+display: none;
+}
+
+#userIdDelete, #userIdReative{
+	display: none;
+}
+
+.loading-image{
+		width: 100px;
+		position: absolute;
+		left: 40%;
+		top:25%;
+		display: none;
+	}
+	
+	#buttonAddAssociatedUser{
+		margin-right: 10px;
+	}
+	
+	#associatedSolicitationError{
+		color: red;
+		display: none;
+	}
+	
+	#associatedSolicitationInfosUser{
+		display: none;
+	}
+	
+	#btnSendAssociatedRequisition{
+		display: none;
+	}
+

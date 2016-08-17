@@ -1,0 +1,82 @@
+label {
+    margin-top: 10px;
+}
+
+input.hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+#profile-image {
+    cursor: pointer;
+    background: white;
+    //width: 80px;
+    //height: 80px;
+}
+
+.imgSocialNetwork {
+    width: 20px;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+/*
+
+.sampleImageComapny{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}*/
+
+.inputFileHide{
+    display: none;
+}
+
+.help-icon{
+	width: 100%;
+	text-align: right;
+	
+	padding-top: 10px;
+}
+
+.help-icon img{
+	width: 3%;
+	cursor: pointer;
+}
+
+.help-icon img:hover{
+	opacity: 0.6;
+}
+
+.company-logo {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+
+	margin-bottom:10px;
+}
+.sampleImageComapny {
+    left:50%;
+    top: 50%;
+    //min-height: 100%;
+    height:auto;
+    width:100%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border:0px solid #A9A055;
+	position: relative;
+}
+
+#opcoesDeFrete{
+	display: none;
+}
+
+.social-check{
+	display: none;
+}
+
+span.social-check{
+	display: none;
+}

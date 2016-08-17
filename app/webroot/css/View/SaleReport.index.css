@@ -1,0 +1,215 @@
+table {
+    border-collapse: collapse;
+}
+
+table th{
+    vertical-align: middle; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+table thead tr{
+    background-color: #DEF1F4;
+    color: #2597AC;
+}
+
+table tr{
+    text-align: center;
+    color: #9B9B9B;
+}
+
+.rowCenter {
+    text-align: center;
+}
+
+.codeBarImage {
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.printable{
+    display:none;
+}
+/* print styles*/
+@media print {
+ .printable {display:block;}
+ .screen {display:none;}
+}
+
+.logoModal {
+  background-color: #2597ac;
+}
+
+.modal-content{
+      text-align: center;
+}
+
+.marginTop15 {
+  margin-top: 15px;
+}
+
+.modalHeaderImg {
+  margin-left: -16px;
+  margin-top: -10px;
+  margin-bottom: -9px;
+}
+
+.user-details-photo{
+		width: 100%;
+		height: 200px;
+	}
+	
+	.description-info-user{
+		margin-left: 20px;
+		color: #9B9B9B;
+	}
+	
+	p.user-info span{
+		color: #9B9B9B;
+	}
+	
+	.info-user-galery{
+		max-height: 110px;
+		
+		 overflow-x: auto;
+    white-space: nowrap;
+	*/}
+	
+	.col-md-3{
+		 display: inline-block;
+         vertical-align: middle;
+	
+	}
+
+    .col-md-9{
+        display: inline-block;
+        vertical-align: left;
+        text-align: left;
+    
+    }
+	
+	.quad{
+		width: 18%;
+		margin:5px;	
+	}
+	
+	.panel-default .panel-heading{
+		border: 1px solid #dcdcdc;
+		
+	}
+	.panel-default{
+	border: 1px solid #dcdcdc;
+	}
+	
+	.bordaa{
+		border-color #999;
+	}
+	
+	.checkouts-box{
+		//height: 150px;
+		
+		border: 1px solid #ddd;
+		padding: 0px;
+	}
+	
+	.img-content{
+		height: 50%;
+		padding: 0px;
+	}
+
+	.checkouts-box-img{
+		 width: 100%;
+		height: 100%;
+		//border: 1px solid red;
+		object-fit: cover;
+		object-position: center;
+	}
+	
+	.checkouts-content{
+		text-align: center;
+		padding: 0px;
+		padding-left:0px;
+		padding-top: 5px;
+	
+		max-width: 100%;
+	}
+	
+	.checkout-label{
+		color: #777;
+		font-size: 75%;
+		font-weight: 700;
+		line-height: 13px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	
+	.checkouts-divisor{
+		padding: 0px;
+		margin: 3px;
+	}
+	
+	.checkouts-collums{
+		padding-right: 5px;
+		font-size: 75%;
+		font-weight: 700;
+		line-height: 13px;
+		padding-left: 3px;
+		padding-right: 3px;
+		text-align: left;
+	}
+	
+	.checkouts-descriptions{
+			padding: 0px;
+			padding-bottom:5px;
+	}
+	
+	.left-collum{
+		color: #999;
+	}
+	
+	.checkouts-body{
+		height: 250px;
+		overflow: scroll;
+		overflow-x: hidden;
+	}
+	
+	fieldset.scheduler-border {
+    border: 1px groove #dcdcdc !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+    }
+	
+	.checkout-details-photo{
+		width: 100%;
+	}
+		
+	.checkout-text{
+		text-align: left;
+		color: #9B9B9B;
+	}
+	
+	.checkout-text strong{
+		color: #333;
+	}
+	
+	#btnShowModal{display: none;}
+	
+	.month-loading{
+		position: absolute;
+top: 200px;
+margin-left: 40%;
+margin-right: auto;
+width: 10%;
+z-index: 99999;
+display: none;
+	}

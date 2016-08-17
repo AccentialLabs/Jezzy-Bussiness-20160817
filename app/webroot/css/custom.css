@@ -1,0 +1,72 @@
+.navbar-inverse {
+    background-color: #2597ac;
+}
+.table-bordered {
+    border: 1px solid #999933;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #999933;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 1px solid #999933;
+}
+
+
+.panel-default {
+    border-color: #999933;
+}
+
+.panel-title{
+    text-transform: uppercase;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #999933;
+}
+
+.logoNav{
+    margin-top: -6px;
+    margin-left: 40px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #333;
+}
+.menuDivisor{
+    color: #507EA8;
+}
+
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #1E7F91;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #2597ac;
+}
+.btn-primary:hover {
+    background-color: #3dd3cf;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-color: #70e1de;
+}
+
+.h1, h1 {
+  font-size: 30px;
+}
+

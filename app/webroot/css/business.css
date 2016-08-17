@@ -1,0 +1,153 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+    border: 0;
+    border-bottom: 2px solid #999933;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #DEF1F4;
+    border-right: 1px solid #eee;
+
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #2597AC;
+    background-color: #F2F9FA;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    //text-align: center;
+    color: #1E7F91;
+}
+@media (min-width: 768px) {
+    .main {
+
+    }
+}
+.main .page-header {
+    /*margin-top: 0;*/
+    background-color: #999933;
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: -20px;
+    color: white;
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+    -ms-filter: ”alpha(opacity=50)”;
+    filter: alpha(opacity=50);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+    opacity: 0.5;
+    margin-top: -18px;
+    height: 40px;
+    text-align: center;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.placeholders h4 {
+    margin-bottom: 0;
+}
+.placeholder {
+    margin-bottom: 20px;
+}
+.placeholder img {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+div.panel-heading {
+    text-align: center;
+}
+
+.container-fluid .menuDivisor{
+    margin-top: 15px;
+}
+
+#menuBusinessFull .glyphicon {
+    margin-right: 10px;
+}
+
+li .linkMenu {
+    margin-left: 30px;
+}
+
+.margirCorrectBootstrap{
+    margin-left: 25px;
+}
+
+#menuBusinessIcon{
+    display: none;
+}
+
+.marginMenu {
+  margin-top: -20px;
+}
+
+.navbar-right{
+	color: #fff;
+}
+

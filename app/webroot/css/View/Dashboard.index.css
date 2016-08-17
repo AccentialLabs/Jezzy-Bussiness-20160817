@@ -1,0 +1,507 @@
+﻿//LINHAS COMENTADAS POR EDIÇÃO: 
+//LINHAS INSERIDAS POR EDIÇÃO: 8,9,10,11,12,
+
+table {
+    font-size: smaller;
+}
+
+#comprasFinalizadas{
+    height: 110px;
+    font-size: smaller;
+    border: 1px solid red;
+}
+
+table th{
+    vertical-align: middle; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+table thead tr{
+    background-color: #DEF1F4;
+    color: #2597AC;
+}
+
+table tr{
+    text-align: center;
+    color: #9B9B9B;
+}
+.rowCenter {
+    text-align: center;
+}
+
+.marginTop15 {
+    margin-top: 15px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.buttonLocation{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tabelSchedule {
+    border-radius: 5px;
+    padding: 5px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.topBorderSchedule{
+    border-top: 1px solid #999933 !important;
+}
+
+.heightFirstRow {
+    height: 150px;
+}
+
+.heightSquare{
+    height: 73px;
+}
+
+.heightFirstSpace{
+    height: 4px;
+}
+
+.darkBlue {
+    background-color: #2597ac;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lightblue {
+    background-color: #def1f4;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.leftSquare {
+    margin-right: -13px;
+}
+
+.rightSquare {
+    margin-left: -13px;
+}
+
+.delivery {
+    font-size: -webkit-xxx-large;
+	padding-top: 10px;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.price{
+    font-size: 10px;
+}
+
+.titleOffer {
+    font-size: large;
+}
+
+.iconWhite {
+    color: white;
+}
+
+.letterSize {
+    font-size: 25px;
+}
+
+.birthDayColor {
+    color: #2597AC;
+}
+
+.verticalAlign {
+    vertical-align: middle;
+}
+
+.saleFinalize {
+    height: 40px;
+    background-color: #def1f4;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid #999933;
+}
+
+.notification-body{
+    padding: 10px;
+}
+
+.notification-item{
+    border: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.notification-text{
+    color: #9B9B9B;
+}
+
+.glyphicon-btn{
+    font-size: 1.5em;
+    color: #9B9B9B;
+    text-decoration: none;
+    cursor: pointer; 
+
+}
+
+.glyphicon-btn:hover{
+    opacity: 0.6;
+}
+
+.label-new-schedule{
+    color: #1E7F91;
+    padding: 5px;
+}
+
+.label-new-schedule .label{
+    color: #1E7F91;
+    cursor: pointer;
+}
+
+.notification-input{
+    width: 70%;
+}
+
+.confirm-sugestion-schedule{
+    font-size: 2em;
+    padding-left:4px;
+    color: #9B9B9B;
+}
+
+.hidden-notify{
+    display: none;
+}
+
+.plus-btn{
+    margin-top: 1%;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.box-dash{
+    font-size: 1em;
+}
+
+.box-dash-agendamento{
+    font-size: 0.7em;
+}
+
+// POP UP DETALHES DO USUÁRIO 
+
+.user-details, .photo{
+    width: 30px;	}
+
+.user-details-photo{
+    width: 100%;
+    height: 200px;
+}
+
+.description-info-user{
+    margin-left: 20px;
+    color: #9B9B9B;
+}
+
+p.user-info span{
+    color: #9B9B9B;
+}
+
+.info-user-galery{
+    max-height: 110px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.col-md-3{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.quad{
+    width: 18%;
+    margin:5px;	
+}
+
+.panel-default .panel-heading{
+    border: 1px solid #dcdcdc;
+
+}
+.panel-default{
+    border: 1px solid #dcdcdc;
+}
+
+.bordaa{
+    border-color: #999;
+}
+
+.checkouts-box{
+    //height: 150px;
+
+    border: 1px solid #ddd;
+    padding: 0px;
+}
+
+.img-content{
+    height: 50%;
+    padding: 0px;
+}
+
+.checkouts-box-img{
+    width: 100%;
+    height: 100%;
+    //border: 1px solid red;
+    object-fit: cover;
+    object-position: center;
+}
+
+.checkouts-content{
+    text-align: center;
+    padding: 0px;
+    padding-left:0px;
+    padding-top: 5px;
+
+    max-width: 100%;
+}
+
+.checkout-label{
+    color: #777;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.checkouts-divisor{
+    padding: 0px;
+    margin: 3px;
+}
+
+.checkouts-collums{
+    padding-right: 5px;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: left;
+}
+
+.checkouts-descriptions{
+    padding: 0px;
+    padding-bottom:5px;
+}
+
+.left-collum{
+    color: #999;
+}
+
+.checkouts-body{
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.modal-title-personal{
+    color: #fff;
+}
+
+div.pager {
+    text-align: right;
+    margin: 1em 0;
+}
+
+div.pager span {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8;
+    text-align: center;
+    cursor: pointer;
+    background: #fff;
+    color: #3399cc;
+    margin-right: 0.5em;
+}
+
+div.pager span.active {
+    background: #3399cc;
+    color: #fff;
+}
+
+.active-icon .inactive-icon{
+    cursor: pointer;
+}
+
+.starOffer{
+    width: 70px;
+}
+
+#openSpreadsheet{
+    margin-right: 5px;
+}
+
+.schedules-box{	
+    position: absolute;
+    top:0px;
+    right: 5px;
+    z-index: 999999;
+    display: none;
+}
+
+.myModalSchedulesRequisitions{
+    left: 40px;
+}
+
+.loading-wizard{
+    width: 100%;
+}
+
+div.loading{
+    width: 8%;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    z-index: 99999;
+    display: none;
+}
+
+#createAccountMoipBody{
+    background: #fff; 
+    width: 60%;
+    display: none;
+    position: absolute;
+    left: 15%; 
+    border: 1px solid #1c8db9; 
+    top: 5%;
+    z-index: 99999;
+}
+
+.close-button{
+    padding-top: 10px;
+    color: #666;
+    opacity: 0.6;
+}
+#moipBodyXis{
+    opacity: 0.3;
+}
+
+#moipBodyXis:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#moipStreet{
+    width: 60%;
+}
+
+#moipNumber{
+    width: 35%;
+    margin-left: 4.5%
+}
+
+#moipEmail{
+    width: 45%;
+    margin-left: 4.6%;
+}
+
+#moipName{
+    width: 50%;
+}
+
+#moipCpf{
+    width: 50%;
+}
+
+#moipDate{
+    width: 45%;
+    margin-left: 4.6%;
+}
+
+#moipCountryCode{
+    width: 18%;
+
+}
+
+#moipAreaCode{
+    width: 18%;
+    margin-left: 4.5%;
+}
+
+#moipPhone{
+    width: 55%;
+    margin-left: 4.5%;
+}
+
+#moipZipCode{
+    width: 30%;
+}
+
+#moipDistrict{
+    width: 65%;
+    margin-left: 4.5%;
+}
+
+#moipCity{
+    width: 55%;
+}
+
+#moipCountry{
+    width: 18%;
+    margin-left: 4.5%;
+}
+
+#moipState{
+    width: 18%;
+    margin-left: 4.5%;
+}
+
+#createMoip{
+    margin-right: 10px;
+    background: #1c8db9;
+    color: #fff;
+}
+
+#moipAllBackBlack{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: 0.5;
+}
+
+#moipAccountSuccess{
+    display: none;
+}
+
+.moip-description{
+
+    font-size: 12px;
+
+}
+
+.moipLogo{
+    width: 15%;
+}
+
+#moipAccountSuccess{
+	display: none;
+}
+
+.realizeService{
+	border: 1px solid #dcdcdc;
+padding-top: 10px;
+}
+
+<!-- -->
+
+
+

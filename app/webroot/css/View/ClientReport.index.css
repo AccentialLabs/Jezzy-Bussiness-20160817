@@ -1,0 +1,197 @@
+table {
+    border-collapse: collapse;
+}
+
+table th{
+    vertical-align: middle; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+table thead tr{
+    background-color: #DEF1F4;
+    color: #2597AC;
+}
+
+table tr{
+    text-align: center;
+    color: #9B9B9B;
+}
+.rowCenter {
+    text-align: center;
+}
+
+.user-details, .photo{
+    width: 30px;	}
+
+.user-details-photo{
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.marginTop15 {
+    margin-top: 15px;
+}
+
+.description-info-user{
+    margin-left: 20px;
+    color: #9B9B9B;
+}
+
+p.user-info span{
+    color: #9B9B9B;
+}
+
+.info-user-galery{
+    max-height: 110px;
+
+    overflow-x: auto;
+    white-space: nowrap;
+    */}
+
+.col-md-3{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.quad{
+    width: 18%;
+    margin:5px;	
+}
+
+.panel-default .panel-heading{
+    border: 1px solid #dcdcdc;
+
+}
+.panel-default{
+    border: 1px solid #dcdcdc;
+}
+
+.bordaa{
+    border-color #999;
+}
+
+.checkouts-box{
+    //height: 150px;
+
+    border: 1px solid #ddd;
+    padding: 0px;
+}
+
+.img-content{
+    height: 50%;
+    padding: 0px;
+}
+
+.checkouts-box-img{
+    width: 100%;
+    height: 100%;
+    //border: 1px solid red;
+    object-fit: cover;
+    object-position: center;
+}
+
+.checkouts-content{
+    text-align: center;
+    padding: 0px;
+    padding-left:0px;
+    padding-top: 5px;
+    max-width: 100%;
+}
+
+.checkout-label{
+    color: #777;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.checkouts-divisor{
+    padding: 0px;
+    margin: 3px;
+}
+
+.checkouts-collums{
+    padding-right: 5px;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: left;
+}
+
+.checkouts-descriptions{
+    padding: 0px;
+    padding-bottom:5px;
+}
+
+.left-collum{
+    color: #999;
+}
+
+.checkouts-body{
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.services-details-text{
+    text-align: center;
+    border: 1px solid #DDD;
+}
+
+.offer-for-client{
+    cursor: pointer;
+}
+
+.offer-for-client{
+    cursor: pointer;
+}
+
+.hoverzoom{
+    
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.hoverzoom > img {
+   width: 100%; 
+	border-radius: 2px;
+	-webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.hoverzoom:hover > img {
+	-webkit-transform: scale(3.0);
+	   -moz-transform: scale(3.0);
+	    -ms-transform: scale(3.0);
+	     -o-transform: scale(3.0);
+	        transform: scale(3.0);
+}
+
+.schedule-photo{
+    cursor: pointer;
+    margin: 1px;  
+}
+
+.schedule-photo:hover{
+  width: 100%; 
+	border-radius: 2px;
+	-webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+

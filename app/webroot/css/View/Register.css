@@ -1,0 +1,171 @@
+	.headerrr{
+		height: 100%;
+			/* Location of the image */
+  background-image: url(https://secure.jezzy.com.br/jezzy-portal/app/webroot/img/register/back04.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+	
+	#cadastro-recebe{
+		padding: 60px;
+                background: #FFFFF0;
+        }
+
+	.bem-vindo{
+	font-size: 2.5em;
+	color: #fff;
+	position: relative;
+	top: 39%;
+	left: 35%;
+	text-align: center;
+	}
+	.bem-vindo img{
+	 width: 50%;
+	 
+	}
+	
+	.btn-dark{
+		    border-radius: 8;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+	opacity: 0.8;
+	margin-top: 10px;
+	}
+	
+	.btn-dark:hover{
+		color: #fff;
+		 background-color: rgba(0,0,0,0.6);
+		 
+	}
+	
+	.form-button{
+		margin-left: 10px;
+	}
+	
+	.footerrr {
+  position: relative;
+  margin-top: -15px; /* negative value of footer height */
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  clear:both;
+  padding-top:10px;
+  border-top: 1px solid #ccc;
+  color: #666;
+  font-size: 12px;
+} 
+
+.footer-content{
+	margin-right: 20px;
+}
+
+.mandatory_fild{
+   border-left: 2px solid #6A5ACD;
+}
+
+#loading{
+	display: none;
+	position: absolute;
+	width: 8%;
+	top: 180%;
+	left: 43%;
+}
+
+#loading-addres{
+	display: none;
+	position: absolute;
+	width: 6%;
+	top: 196%;
+	left: 43%;
+}
+
+.jumbotron-personal{
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+
+  .modal-header, .close {
+      //background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+	  background: rgba(37, 151, 172, 0.8);
+  }
+  
+  .titulo-plano{
+     background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 25px;
+  }
+ .modal-footer {
+      background-color: #f9f9f9;
+ }
+  
+ .item-plano{
+	width: 41.66666667%;
+	margin: 5px;
+
+ }
+  
+  .plano-header{
+      background-color: #2597ac;
+      color:white !important;
+      font-size: 25px;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  padding-left: 10px;
+  }
+  
+  .almost-jumbotron{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	color: #555;
+	background-color: #eee;
+	font-size: 12px;
+		height: 100%;
+		max-height: 40%;
+  }
+  
+ ul{
+	margin-left: -15px;
+	margin-right: 5px;
+ }
+ 
+ .plano-valor{
+	background-color: #186674;
+      color:white !important;
+      font-size: 25px;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  padding-left: 10px;
+ }
+  
+  
+  small.plano-small{
+  color: #fff;
+  font-size: 10px;
+  }
+
+#btnSubmit{
+	display: none;
+}
+
